@@ -1,0 +1,14 @@
+$theme-colors: (
+  "primary": #0019a5,
+  "success": #33691e,
+  "danger": #f50057,
+  "warning": #ffab00,
+  "cool": #00aeff,
+);
+
+// Bootstrap and its default variables
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+  padding-top: 5rem; // 5 rem  = 5*16
+}
